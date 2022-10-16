@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h1>
+      Jotto
+    </h1>
+    <div
+      class="alert alert-success"
+      data-test="component-congrats"
+    >
+      <span
+        data-test="congrats-message"
+      >
+        Congratulations! You guessed the word!
+      </span>
+    </div>
+    <div
+      data-test="component-guessed-words"
+    >
+      <div
+        data-test="guessed-words"
+      >
+        <h3>
+          Guessed Words
+        </h3>
+        <table
+          class="table table-sm"
+        >
+          <thead
+            class="thead-dark"
+          >
+            <tr>
+              <th>
+                Guess
+              </th>
+              <th>
+                Matching Letters
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              data-test="guessed-word"
+            >
+              <td>
+                train
+              </td>
+              <td>
+                3
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;
